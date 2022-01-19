@@ -12,16 +12,19 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/revolt/main/assets/preview.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+#### Manual Installation
+1. Copy the contents of the `settings-string` file
+2. Open your Revolt settings and go to Appearance
+3. Go to the »Themes Overwrites« section
+4. Click the »Import Theme« button
+5. Paste the `settings-string` into the field click »Ok«
+4. Enjoy
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Andreas Grafen](https://github.com/andreasgrafen)
