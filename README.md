@@ -18,16 +18,18 @@
 ## Usage
 
 #### Manual Installation
-1. Copy the contents of the `settings-string` file
+1. Go into the `src` folder and copy the contents of the `flavour.json` file 
 2. Open your Revolt settings and go to Appearance
 3. Go to the »Themes Overwrites« section
 4. Click the »Import Theme« button
-5. Paste the `settings-string` into the field click »Ok«
+5. Paste the `flavour.json` into the field click »Ok«
 4. Enjoy
 
 ## 💝 Thanks to
 
 - [Andreas Grafen](https://github.com/andreasgrafen)
+- [Isabelinc](https://github.com/isabelincorp)
+
 
 &nbsp;
 
