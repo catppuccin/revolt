@@ -1,0 +1,51 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}/Preset.toml"
+---
+slug = "catppuccin-{{ flavor.identifier }}"
+name = "Catppuccin {{ flavor.name }}"
+creator = "Catppuccin Org"
+description = "Soothing pastel theme for Revolt."
+tags = ["pastel", "soothing", "{{ if(cond=flavor.dark, t="dark", f="light") }}"]
+version = "1.0.0"
+
+[variables]
+light = {{ not flavor.dark | as_str }}
+accent = "#{{ rosewater.hex }}"
+background = "#{{ base.hex }}"
+foreground = "#{{ lavender.hex }}"
+block = "#{{ crust.hex }}"
+message-box = "#{{ crust.hex }}"
+mention = "{{ base | mod(opacity=0.1) | css_rgba }}"
+success = "#{{ green.hex }}"
+warning = "#{{ peach.hex }}"
+tooltip = "#000000"
+error = "#{{ red.hex }}"
+hover = "{{ crust | mod(opacity=0.75) | css_rgba }}"
+
+[variables.scrollbar]
+thumb = "#{{ lavender.hex }}"
+track = "transparent"
+
+[variables.primary]
+background = "#{{ base.hex }}"
+header = "#{{ mantle.hex }}"
+
+[variables.secondary]
+background = "#{{ mantle.hex }}"
+foreground = "#{{ overlay0.hex }}"
+header = "#{{ mantle.hex }}"
+
+[variables.tertiary]
+background = "#{{ crust.hex }}"
+foreground = "#{{ surface2.hex }}"
+
+[variables.status]
+online = "#{{ green.hex }}"
+away = "#{{ flamingo.hex }}"
+busy = "#{{ maroon.hex }}"
+streaming = "#{{ mauve.hex }}"
+invisible = "#{{ surface2.hex }}"
