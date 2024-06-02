@@ -6,13 +6,13 @@ tags = ["pastel", "soothing", "light"]
 version = "1.0.0"
 
 [variables]
-light = true
+light = false
 accent = "#dc8a78"
 background = "#eff1f5"
 foreground = "#7287fd"
 block = "#dce0e8"
 message-box = "#dce0e8"
-mention = "rgba(30, 29, 47, .1)"
+mention = "rgba(239, 241, 245, 0.10)"
 success = "#40a02b"
 warning = "#fe640b"
 tooltip = "#000000"
