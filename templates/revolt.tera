@@ -13,7 +13,7 @@ tags = ["pastel", "soothing", "{{ if(cond=flavor.dark, t="dark", f="light") }}"]
 version = "1.0.0"
 
 [variables]
-light = {{ not flavor.dark | as_str }}
+light = {{ if(cond=flavor.dark, t=false, f=true) }}
 accent = "#{{ rosewater.hex }}"
 background = "#{{ base.hex }}"
 foreground = "#{{ lavender.hex }}"

@@ -6,7 +6,7 @@ tags = ["pastel", "soothing", "light"]
 version = "1.0.0"
 
 [variables]
-light = false
+light = true
 accent = "#dc8a78"
 background = "#eff1f5"
 foreground = "#7287fd"
