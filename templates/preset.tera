@@ -11,7 +11,7 @@ name = "Catppuccin {{ flavor.name }}"
 creator = "Catppuccin Org"
 description = "Soothing pastel theme for Revolt."
 tags = ["pastel", "soothing", "{{ if(cond=flavor.dark, t="dark", f="light") }}"]
-version = "1.0.0"
+version = "2.0.0"
 
 [variables]
 light = {{ if(cond=flavor.dark, t=false, f=true) }}

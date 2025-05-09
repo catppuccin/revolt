@@ -3,7 +3,7 @@ name = "Catppuccin Frappé"
 creator = "Catppuccin Org"
 description = "Soothing pastel theme for Revolt."
 tags = ["pastel", "soothing", "dark"]
-version = "1.0.0"
+version = "2.0.0"
 
 [variables]
 light = false
