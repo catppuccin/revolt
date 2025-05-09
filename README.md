@@ -12,24 +12,48 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/revolt/main/assets/preview.png"/>
+  <img src="./assets/preview.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="./assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="./assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="./assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="./assets/mocha.webp"/>
+</details>
 
 ## Usage
 
-#### Manual Installation
-1. Go into the `src` folder and copy the contents of the `flavour.json` file 
-2. Open your Revolt settings and go to Appearance
-3. Go to the »Themes Overwrites« section
-4. Click the »Import Theme« button
-5. Paste the `flavour.json` into the field click »Ok«
-4. Enjoy
+### Built-in Store
+
+1. Click on "Discover Revolt" in the server sidebar.
+2. Click on "Themes" in the channels list.
+3. Search for "Catppuccin" and select your preferred flavour.
+
+### Theme Overrides
+
+1. Copy the `overrides.json` of your preferred flavour from the [themes](./themes) directory.
+2. Open your Revolt settings and go to "Appearance".
+3. Expand the "Themes Overrides" section.
+4. Click the "Import a Theme" button.
+4. Enjoy!
 
 ## 💝 Thanks to
 
 - [Andreas Grafen](https://github.com/andreasgrafen)
 - [Isabelinc](https://github.com/isabelincorp)
-
 
 &nbsp;
 

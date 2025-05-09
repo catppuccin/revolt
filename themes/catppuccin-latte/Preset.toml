@@ -1,0 +1,45 @@
+slug = "catppuccin-latte"
+name = "Catppuccin Latte"
+creator = "Catppuccin Org"
+description = "Soothing pastel theme for Revolt."
+tags = ["pastel", "soothing", "light"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#8839ef"
+background = "#eff1f5"
+foreground = "#4c4f69"
+block = "#dce0e8"
+message-box = "#dce0e8"
+mention = "rgba(239, 241, 245, 0.10)"
+success = "#40a02b"
+warning = "#fe640b"
+tooltip = "#000000"
+error = "#d20f39"
+hover = "rgba(220, 224, 232, 0.75)"
+
+[variables.scrollbar]
+thumb = "#7287fd"
+track = "transparent"
+
+[variables.primary]
+background = "#eff1f5"
+header = "#e6e9ef"
+
+[variables.secondary]
+background = "#e6e9ef"
+foreground = "#9ca0b0"
+header = "#e6e9ef"
+
+[variables.tertiary]
+background = "#dce0e8"
+foreground = "#acb0be"
+
+[variables.status]
+online = "#40a02b"
+away = "#df8e1d"
+focus = "#1e66f5"
+busy = "#d20f39"
+streaming = "#8839ef"
+invisible = "#acb0be"
