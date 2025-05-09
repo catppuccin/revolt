@@ -1,0 +1,37 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}/overrides.json"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+{
+  "accent": "{{ mauve.hex }}",
+  "background": "{{ base.hex }}",
+  "foreground": "{{ text.hex }}",
+  "block": "{{ crust.hex }}",
+  "message-box": "{{ crust.hex }}",
+  "mention": "{{ base | mod(opacity=0.1) | css_rgba }}",
+  "success": "{{ green.hex }}",
+  "warning": "{{ peach.hex }}",
+  "tooltip": "#000000",
+  "error": "{{ red.hex }}",
+  "hover": "{{ crust | mod(opacity=0.75) | css_rgba }}",
+  "scrollbar-thumb": "{{ lavender.hex }}",
+  "scrollbar-track": "transparent",
+  "primary-background": "{{ base.hex }}",
+  "primary-header": "{{ mantle.hex }}",
+  "secondary-background": "{{ mantle.hex }}",
+  "secondary-foreground": "{{ overlay0.hex }}",
+  "secondary-header": "{{ mantle.hex }}",
+  "tertiary-background": "{{ crust.hex }}",
+  "tertiary-foreground": "{{ surface2.hex }}",
+  "status-online": "{{ green.hex }}",
+  "status-away": "{{ yellow.hex }}",
+  "status-focus": "{{ blue.hex }}",
+  "status-busy": "{{ red.hex }}",
+  "status-streaming": "{{ mauve.hex }}",
+  "status-invisible": "{{ surface2.hex }}",
+  "light": {{ if(cond=flavor.dark, t=false, f=true) }}
+}
